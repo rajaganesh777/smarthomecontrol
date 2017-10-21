@@ -77,9 +77,7 @@
   /*
   * Name: sendData
   * Description: Function used to send data to ESP8266.
-  * Params: command - the data/command to send; timeout - the time to wait for a response; debug - print to Serial window?(true = yes, false = no)
-  * Returns: The response from the esp8266 (if there is a reponse)
-  */
+
   String sendData(String command, const int timeout, boolean debug)
   {
     String response = "";
