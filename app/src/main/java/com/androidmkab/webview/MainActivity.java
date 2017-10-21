@@ -1,4 +1,4 @@
-package com.androidmkab.webview;
+package com.androidmka.webview;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -28,12 +28,7 @@ tv =(TextView)findViewById(R.id.tv);
                 webView.getSettings().setJavaScriptEnabled(true);
                 webView.getSettings().setAppCacheEnabled(true);
                 webView.loadUrl("http://192.168.4.1");
-              // final  EditText search_key = (EditText) findViewById (R.id.et);
-                //String key = .getText.ToString();
-
-
-                //WebView webview=(WebView)findViewById(R.id.webview);
-                //webView.loadUrl( "http://192.168.4.1/pin=" + key);
+             
 
 
             }
