@@ -1,4 +1,4 @@
-package com.androidmka.webview;
+package com.iot.webview;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
