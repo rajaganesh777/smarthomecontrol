@@ -11,12 +11,11 @@ public class MainActivity extends AppCompatActivity {
 
     WebView webView;
     Button im;
-    TextView tv;
+    
     @Override
    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-tv =(TextView)findViewById(R.id.tv);
         im =(Button) findViewById(R.id.swipe);
         //swipe = (Button) findViewById(R.id.swipe);
 
