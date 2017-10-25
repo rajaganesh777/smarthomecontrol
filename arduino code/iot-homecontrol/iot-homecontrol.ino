@@ -77,6 +77,7 @@
   /*
   * Name: sendData
   * Description: Function used to send data to ESP8266.
+  */
 
   String sendData(String command, const int timeout, boolean debug)
   {
