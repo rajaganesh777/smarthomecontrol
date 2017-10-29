@@ -2,12 +2,11 @@
   
   #define DEBUG true
   
-  SoftwareSerial esp8266(2,3); // make TX Arduino line is pin 2, make RX Arduino line is pin 3.
+  SoftwareSerial esp8266(2,3);
   
   boolean alreadyConnected = false;
   
-  // This means that you need to connect the TX line from the esp to the Arduino's pin 2
-                               // and the RX line from the esp to the Arduino's pin 3
+  
   void setup()
   {
   
@@ -30,11 +29,7 @@
   
   void loop()
   {
-    //digitalWrite(12,HIGH);
-  // delay(100);
-   //digitalWrite(12,LOW);
-   
- // delay(100);
+  
   
     String inString = "";  
     if(esp8266.available()) // check if the esp is sending a message 
@@ -75,8 +70,7 @@
   
   
   /*
-  * Name: sendData
-  * Description: Function used to send data to ESP8266.
+ 
   */
 
   String sendData(String command, const int timeout, boolean debug)
